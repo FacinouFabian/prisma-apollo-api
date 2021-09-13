@@ -1,0 +1,4 @@
+{
+    "name": "create-prisma-api",
+    "env": ["PORT"]
+}

@@ -12,9 +12,8 @@
     "isolatedModules": true,
     "forceConsistentCasingInFileNames": true,
     "baseUrl": "./src",
-    "outDir": "./lib",
     "strict": true
   },
   "include": ["src", "tests", "prisma", "definitions.d.ts"],
-  "exclude": ["node_modules", "**/__tests__/*"]
+  "exclude": ["node_modules", "**/tests/*"]
 }

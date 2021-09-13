@@ -16,7 +16,7 @@
 # Modules dependencies if nodeLinket set to node modules
 node_modules/
 
-.env*
+.env
 !.env.sample
 
 #
