@@ -33,7 +33,11 @@
     "test": "jest --config jestconfig.json",
     "format": "yarn prettier --write ./src/**/*.ts",
     "format:prisma": "npx prisma format",
-    "build:db": "npx prisma migrate dev --name init"
+    "build:db": "npx prisma migrate dev --name init",
+    "prepare": "yarn build",
+    "prepublishOnly": "yarn test",
+    "version": "yarn format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "devDependencies": {
     "@babel/cli": "^7.15.4",
