@@ -1,0 +1,39 @@
+{
+  "name": "create-prisma-api",
+  "description": "A prisma api starter kit.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "FacinouFabian <fabianfacinou02@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/FacinouFabian/create-prisma-api",
+  "bugs": "https://github.com/FacinouFabian/create-prisma-api/issues",
+  "repository": {
+    "url": "https://github.com/FacinouFabian/create-prisma-api",
+    "type": "git"
+  },
+  "keywords": [
+    "prisma",
+    "api",
+    "starter-kit",
+    "typescript"
+  ],
+  "files": [
+    "index.js",
+    "lib/*.js",
+    "bin/*.js"
+  ],
+  "bin": {
+    "create-prisma-api": "bin/create-prisma-api.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.0",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.4.3"
+  }
+}

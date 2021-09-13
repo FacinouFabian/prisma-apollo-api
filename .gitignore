@@ -1,0 +1,55 @@
+# .gitignore generated with love by confiture.sh
+
+#
+# PACKAGE MANAGER
+#
+
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+# depending of Zero-install or not ⬇️
+.pnp.*
+
+# Modules dependencies if nodeLinket set to node modules
+node_modules/
+
+.env*
+!.env.sample
+
+#
+# FRAMEWORK
+#
+
+# output release
+.dist/
+
+# generated files
+nexus.d.ts
+
+#
+# TESTING
+#
+
+## Coverage
+coverage/
+
+#
+# LOGS
+#
+
+*.log
+logs/
+
+#
+# MISCELLANEOUS
+#
+
+## Integrated development editor
+.idea/
+.vscode/
+
+## Operating system
+.DS_Store  
