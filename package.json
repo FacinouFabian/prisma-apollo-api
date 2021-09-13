@@ -18,8 +18,8 @@
     "typescript"
   ],
   "files": [
-    "index.js",
-    "lib/*.js",
+    "main.js",
+    "dist/*.js",
     "bin/*.js"
   ],
   "bin": {
