@@ -1,3 +1,4 @@
+import { User } from '@prisma/client'
 import { getAllUsers, getUser } from '../../libs/users'
 
 export default {

@@ -1,5 +1,5 @@
 {
-  "name": "create-prisma-api",
+  "name": "prisma-apollo-api",
   "description": "A prisma api starter kit.",
   "version": "1.0.0",
   "main": "main.js",
@@ -33,8 +33,7 @@
     "test": "jest --config jestconfig.json",
     "format": "yarn prettier --write ./src/**/*.ts",
     "format:prisma": "npx prisma format",
-    "build:db": "npx prisma migrate dev --name init",
-    "prepare": "yarn build",
+    "build:db": "prisma migrate dev --name init",
     "prepublishOnly": "yarn test",
     "version": "yarn format && git add -A src",
     "postversion": "git push && git push --tags"
@@ -65,7 +64,7 @@
     "jest": "^27.2.0",
     "nodemon": "^2.0.12",
     "prettier": "^2.4.0",
-    "prisma": "^3.0.2",
+    "prisma": "^5.11.0",
     "rimraf": "^3.0.2",
     "ts-jest": "^27.0.5",
     "typescript": "^4.4.3"
